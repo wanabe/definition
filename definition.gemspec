@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 Gem::Specification.new do |spec|
   spec.name = "definition"
-  spec.version = "0.0.1"
+  spec.version = "0.0.1.1"
   spec.summary = "type striction"
   spec.author = "wanabe"
   spec.email = "s.wanabe@gmail.com"
