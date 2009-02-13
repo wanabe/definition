@@ -1,15 +1,12 @@
-# -*- coding: UTF-8 -*-
-Gem::Specification.new do |spec|
-  spec.name = "definition"
-  spec.version = "0.0.1.1"
-  spec.summary = "type striction"
-  spec.author = "wanabe"
-  spec.email = "s.wanabe@gmail.com"
-  #spec.homepage = ""
-  #spec.autorequire = "cool"
-  spec.files = Dir.glob("{test,lib}/**/*.rb") << "README" << "ChangeLog"
-  spec.test_files = Dir.glob("test/**/*.rb")
-  spec.has_rdoc = false
-  #spec.rdoc_options << "--main" << "README"
-  #spec.extra_rdoc_files = ["README"]
+Gem::Specification.new do |s|
+  s.name = "definition"
+  s.version = "0.0.1"
+  s.date = "2009-02-13"
+  s.summary = ""
+  s.email = "s.wanabe@gmail.com"
+  s.homepage = "http://github.com/wanabe/definition"
+  s.description = ""
+  s.has_rdoc = true
+  s.authors = [""]
+  s.files = ["Changelog", "README", "definition.gemspec", "lib/definition.rb", "test/tc_definition.rb"]
 end
